@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ZLeeSyn/blbost/issues"
   },
-  "homepage": "https://github.com/ZLeeSyn/blbost#readme"
+  "homepage": "https://github.com/ZLeeSyn/blbost#readme",
+  "dependencies": {
+    "serve": "^11.2.0"
+  }
 }
